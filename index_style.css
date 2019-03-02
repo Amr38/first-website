@@ -1,0 +1,313 @@
+body{
+	font-family: 'segoe ui light';
+	margin: 0;
+	padding: 0;
+}
+
+
+.nav{ 
+overflow: auto;
+
+}
+.nav ul{
+list-style-type:none;
+padding: 0px 14px 0px 14px;
+margin: 20px 40px 30px 40px; 
+
+
+}
+.nav li{
+float: right;
+padding: 10px;
+font-size: 16px;
+font-weight: 4px;
+direction: ltr;
+}
+.nav .logo{
+float: left;
+margin:20px;
+}
+.nav .logo img{
+	height: 36px;
+	width: 136px;
+}
+.nav li a{
+	text-decoration: none;
+	color: #fff;
+}
+.clr{
+	clear: both;
+}
+.home{
+	background-image: url(images/business-2.jpg);
+	background-size: 100% 100%;
+	height: auto;
+}
+.layer{
+	background-color: rgba(0, 0, 0, 0.7);
+	opacity: 0.1 absolute;
+	 width: 100%;
+    height: 100%;
+}
+.txt{
+	padding-top: 200px;
+	padding-bottom: 310px;
+	padding-right: 200px;
+	padding-left: 200px;
+	text-align: center;
+}
+.txt p{
+	font-size: 20px;
+	line-height: 1.3em;	
+	color: #fff;
+	margin-bottom: 32px;
+}
+.txt h1{
+	font-size: 50px;
+	line-height: 1.3em;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.txt button{
+	color:#fff;
+	padding: 15px 25px;
+    margin-top: 30px;
+    border: none;
+    background-color: #5f7;
+}
+.infos{
+	padding:30px 70px 100px 70px;
+	margin-bottom: 50px; 
+
+}
+.infos img{
+
+	width: 30px;
+	height: 30px;
+}
+.infos p{
+	text-align: left;
+	color: grey;
+	margin-right: 40px;
+	margin-left: 40px;
+	padding-right:10px;
+	padding-left: 9px;
+	font-size: 16px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 110px;
+}
+.info{
+	width:33.3%;
+float:left;
+}
+.info h5 {
+font-size: 18px;
+padding: 10px;
+padding-bottom: 0px;
+}
+.serv{
+	background-color: rgb(250 250 250);
+	text-align: center;
+	overflow: auto;
+	padding-top: 40px;
+}
+.serv h3{
+	font-size: 36px;
+}
+.services{  
+	padding-left: 80px;
+}
+.service{
+	float: left;
+	width: 29%; 
+	margin: 20px; 
+	background-color: white;
+}
+.service h6{
+	font-size: 19px;
+	text-align: left;
+	padding-left: 20px;
+}
+.service p{
+text-align: left;
+padding-left: 20px;
+color: grey;
+}
+.service img{
+	width: 100%;
+	height: 33%;
+}
+.secret{
+	color: grey;
+	width: 50%;
+	float:left;
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+.secret img{
+	width: 75%;
+	height: 75%;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+.secret h3{
+	font-size: 30px;
+	color:black;
+    padding-left: 70px;
+    padding-top: 80px;
+}
+.secret p{
+	font-size: 16px;
+	color:grey;
+	padding-left: 70px;
+}
+.secret ul{
+	padding-left: 90px;
+}
+.secret ul p{
+	padding-left: 0px;
+}
+.said{
+	background-color: rgb(250 250 250);
+	position: relative;
+}
+.say{
+	padding-left: 70.50px;
+	padding-top:50px;
+	padding-bottom: 50px;
+	position: relative;
+}
+.sora{
+	text-align: center;
+}
+.sora img{
+	width: 2.5%;
+	height:auto;
+	padding: 50px;
+}
+.says{
+	float: left;
+	width: 30%;
+	margin-right: 30px;
+	color: grey;
+	position: relative;
+}
+.says p{
+	background-color: white;
+	font-size: 16px;
+	padding: 20px;
+}
+.speak:before {
+    content: " ";
+    position: relative;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid white;
+    bottom: 10px;
+    left: 7.5%;
+}
+.speak{
+	position: relative;
+	
+}.speaks{
+	position: relative;
+	left: 5%;
+}
+.counter{
+	height: auto;
+	color: black;
+	text-align: center;
+}
+.counters{
+	width: 23%;
+	float: left;
+	font-size: 30px;
+	
+}
+.additional{
+	background-image: url(images/download.jpg);
+	background-size: 100% 100%;
+	height: 400px;
+
+}
+.additional{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+.additional button{
+	color:#fff;
+	padding: 15px 25px;
+    margin-top: 30px;
+    border: none;
+    background-color: #5f7;
+}
+.half{
+	width: 55%;
+	position: relative;
+	left: 23%;
+	padding-top:40px; 
+	fo
+}
+.other{
+	text-align: center;
+	padding-top: 50px;
+}
+.other p{
+	color:grey;
+	font-size: 20px; 
+}
+.others{
+	margin-left:50px; 
+	margin-bottom: 30px;
+	text-align: left;
+	width :29%;
+	float: left;
+}
+.advertise{
+	background-color: rgb(250 250 250);
+}
+.advertise img{
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+}
+.feeling{
+	background-color: #5f7
+}
+.feelings{
+	background-color: #5f7;
+	width: 50%;
+	float: left;
+	color: white;
+}
+.feelings div{
+	margin-left: 50px;
+}
+.btn2{
+	color: black;
+	padding: 15px 25px;
+    margin-top: 30px;
+    border: none;
+    background-color: white;
+    float: right;
+    margin-right: 50px;
+}
+.ending{
+	background-color: #111;
+	color: white;
+}
+.endings{
+	width: 22%;
+	float: left;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.endings p{
+	color: grey;
+}
+.endings ul{
+	color: grey;
+}
